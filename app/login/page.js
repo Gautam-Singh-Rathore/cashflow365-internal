@@ -120,17 +120,7 @@ export default function LoginPage() {
           </button>
         </form>
 
-        <div style={styles.divider}>
-          <span style={styles.dividerLine} />
-          <span style={styles.dividerText}>demo access</span>
-          <span style={styles.dividerLine} />
-        </div>
-
-        <div style={styles.credChip}>
-          <code style={styles.credCode}>admin@gmail.com</code>
-          <span style={styles.credSep}>/</span>
-          <code style={styles.credCode}>admin</code>
-        </div>
+        
 
         <p style={styles.footer}>
           <IconShield /> Secured demo environment · session expires automatically
